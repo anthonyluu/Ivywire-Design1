@@ -54,7 +54,8 @@ html, body,
 }
 
 #fbsection1 {
-	background-color:#cdcdcd;
+	background: url('../images/main1.jpg') #cdcdcd;
+	background-size: center;
 }
 
 #fbsection2 {

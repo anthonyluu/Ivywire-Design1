@@ -107,10 +107,31 @@ textarea {
 	height:10%;
 	top:0px;
 	color:black;
+	list-style: none;
 }
 
 .clearfix{
 	width:100%;
+}
+
+.logo-section{
+	float:left;
+}
+
+header ul {
+	list-style: none;
+	float:left;
+	margin-left:3em;
+	padding-top:1em;
+}
+header ul li{
+	display: inline;
+}
+header  ul li a{
+	padding: .2em 1em;
+	font-size: 1.5em;
+	text-decoration:none;
+	text-transform:uppercase;
 }
 
 
