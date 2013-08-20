@@ -54,7 +54,7 @@ html, body,
 }
 
 #fbsection1 {
-	background: url('../images/main1.jpg') #cdcdcd;
+	background-image: url(../images/main1.jpg);
 	background-size: center;
 }
 
