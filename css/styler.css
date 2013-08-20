@@ -44,9 +44,42 @@ section{
 }
 
 #fbsection3{
-    font-size:3em;
+    color: #1C1C1C;
 }
 
-#fbsection3 h2{
+#fbsection3 h1{
     text-align:center;
+    margin-top:0px;
+    padding-top:1%;
+    font-size:4.5em;
+    font-weight:700;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+    padding-top:5%;
+}
+
+
+.process-caption{
+    float:left;
+}
+#fbsection3 h2{
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+    font-size:9em;
+    font-weight:700;
+    width:2em;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color:#333;
+    min-height:100px    ;
+}
+
+footer p{
+    margin:0;   
 }
