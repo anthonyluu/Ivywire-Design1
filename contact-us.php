@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/unslider.css">
         
-		<link rel="stylesheet" type="text/css" href="css/component-fixed-pics.css" />
 		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
         
         <!-- scroll effects css -->
