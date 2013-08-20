@@ -120,6 +120,10 @@ body{
 	float:left;
 }
 
+header{
+    background-color:#D8D8D8;
+}
+
 header ul {
 	list-style: none;
 	float:left;
@@ -135,7 +139,6 @@ header  ul li a{
 	text-decoration:none;
 	text-transform:uppercase;
 }
-
 
 
 

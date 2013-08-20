@@ -37,7 +37,8 @@ a:hover {
 	z-index: 1000;
 	width: 100%;
 	padding:1% 10% 1% 10%;
-	background-color:#59ff59;
+	background-color:#2E2E2E;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .container > header h1 {
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background-color: #47a3da;
 }
 
 .icon-drop:before, 

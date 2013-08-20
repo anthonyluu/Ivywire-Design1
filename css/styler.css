@@ -1,0 +1,28 @@
+#fbsection1 h1{
+    font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size:6em;
+    margin-top:15%;
+    margin-left:10%;
+    margin-right:10%;
+    font-weight:600;
+    text-align:center;
+}
+
+#fbsection1 p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size:1.3em;
+    width:75%;
+    margin: 3% auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding:1%;
+}
+
+.about-caption{
+    padding-top:0;
+}
+
+.about-caption h2{
+    margin-bottom:0;
+    padding-bottom:0;
+}
