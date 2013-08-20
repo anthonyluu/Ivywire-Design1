@@ -1,5 +1,6 @@
 #contact{
-    margin:0 5%;   
+    margin:0 5%;
+    color:black;
 }
 .cbp-mc-column h2{
     font-size: 5em;
@@ -47,15 +48,23 @@
 	line-height: 1.5;
 	font-size: 1.4em;
 	padding: 5px 10px;
-	color: #fff;
+	color: black;
 	display: block;
 	width: 100%;
 	background: transparent;
+    border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
 }
 
 .cbp-mc-form input,
 .cbp-mc-form textarea {
-	border: 3px solid #fff;
+	border: 3px solid #1b4e1b;
+    border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
 }
 
 .cbp-mc-form textarea {

@@ -9,7 +9,8 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        
+        <link rel="stylesheet" href="css/second.css">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,7 +25,7 @@
 		
 		
     </head>
-    <body>
+    <body class="contact-us">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -76,7 +77,7 @@
                         <form class='cbp-mc-form'>
                             <div class='cbp-mc-column'>
                                 <h2>Contact Us</h2>
-                                <p>Interested in working with us? Feel free to contact us through any of these lines:</p>
+                                <p>We're always looking to grow! Feel free to contact us through any of these lines:</p>
                                 <p>Email: ivywireline@gmail.com</p>
                                 <p>Skype: ivywire-main</p>
                             </div>
@@ -88,12 +89,6 @@
                 {
                     echo "<div id='contact'>
                         <form class='cbp-mc-form' method='post' action='/contact-us.php'>
-                            <div class='cbp-mc-column'>
-                                <h2>Contact Us</h2>
-                                <p>Interested in working with us? Feel free to contact us through any of these lines:</p>
-                                <p>Email: ivywireline@gmail.com</p>
-                                <p>Skype: ivywire-main</p>
-                            </div>
                             <div class='cbp-mc-column'>
                                 <label for='full_name'>Full name*</label>
                                 <input type='text' id='full_name' name='full_name' placeholder='Enter your name' required>
@@ -109,6 +104,12 @@
                                 </select>
                                 <label for='message'>Details*</label>
                                 <textarea id='message' name='message' required></textarea>
+                            </div>
+                            <div class='cbp-mc-column'>
+                                <h2>Contact Us</h2>
+                                <p>We're always looking to grow! Feel free to contact us through any of these lines:</p>
+                                <p>Email: ivywireline@gmail.com</p>
+                                <p>Skype: ivywire-main</p>
                             </div>
                             <div class='cbp-mc-submit-wrap'><input class='cbp-mc-submit' type='submit' value='Submit' /></div>
                         </form>
