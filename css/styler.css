@@ -1,21 +1,29 @@
+.content{
+    padding-top:3%;
+    padding-bottom:2%;
+}
+
+section{
+    min-height:800px;   
+}
 #fbsection1 h1{
     font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    font-size:6em;
-    margin-top:15%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size:5.5em;
+    margin-top:13%;
     margin-left:10%;
     margin-right:10%;
     font-weight:600;
     text-align:center;
 }
 
-#fbsection1 p{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    font-size:1.3em;
-    width:75%;
-    margin: 3% auto;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding:1%;
+#fbsection1 h2{
+    font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size:3.3em;
+    text-align:center;
+    font-weight:600;
+    
 }
 
 .about-caption{
@@ -24,5 +32,21 @@
 
 .about-caption h2{
     margin-bottom:0;
+    padding-top:5%;
     padding-bottom:0;
+    font-weight:600;
+    font-size:4.5em;
+}
+
+.about-caption p{
+    font-size:1.7em;
+    line-height:1.5em;
+}
+
+#fbsection3{
+    font-size:3em;
+}
+
+#fbsection3 h2{
+    text-align:center;
 }

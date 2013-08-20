@@ -54,12 +54,12 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../images/main1.jpg);
+	background-image: url('../images/main1.jpg') #cdcdcd;
 	background-size: center;
 }
 
 #fbsection2 {
-	background-color:#46c546;
+	background-color:#424242;
 }
 
 #fbsection3 {
