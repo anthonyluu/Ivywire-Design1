@@ -37,9 +37,9 @@
 					<h1>IvyWire Dev</h1>
 				</div>
 				<ul>
-					<li><a>Home</a></li>
-					<li><a>Portfolio</a></li>
-					<li><a>Contact</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/">Portfolio</a></li>
+					<li><a href="contact-us.php">Contact</a></li>
 				</ul>
 			</header>
 		
