@@ -1,3 +1,6 @@
+body{
+    min-width:900px;   
+}
 .content{
     padding-top:3%;
     padding-bottom:2%;
@@ -20,7 +23,7 @@ section{
 #fbsection1 h2{
     font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    font-size:3.3em;
+    font-size:3em;
     text-align:center;
     font-weight:600;
     
@@ -39,15 +42,56 @@ section{
 }
 
 .about-caption p{
-    font-size:1.7em;
+    font-size:1.5em;
     line-height:1.5em;
 }
 
+.about-caption figure{
+    padding:0;   
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(88, 172, 250, 0.7);
+}
+
+
 #fbsection3{
-    color: #1C1C1C;
+    color:#333;
 }
 
 #fbsection3 h1{
+    text-align:center;
+    font-size:3.7em;
+    margin-top:0;
+    padding-top:10%;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+    color:#2E2E2E;
+    font-weight:700;
+}
+
+world-caption{
+    color:#333333;
+}
+
+#fbsection3 p{
+    width:65%;
+    margin:2% auto;
+    padding:1%;
+    font-size:1.5em;
+    color:#FAFAFA;
+    background-color: rgba(0,0,0,0.7);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    word-spacing:2px;
+}
+
+
+
+#fbsection4{
+    color: #1C1C1C;
+}
+
+#fbsection4 h1{
     text-align:center;
     margin-top:0px;
     padding-top:1%;
@@ -55,17 +99,39 @@ section{
     font-weight:700;
     text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
     padding-top:5%;
+    margin-bottom:1%;   
 }
 
 
 .process-caption{
     float:left;
+    width:25%;
 }
-#fbsection3 h2{
+
+#fbsection4 h2{
     text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
     font-size:9em;
     font-weight:700;
     width:2em;
+    margin-top:0;
+    padding-top:0;
+    margin-bottom:0;
+    padding-bottom:0;
+    text-align:center;
+}
+
+#fbsection4 h3{
+    font-size:2.1em;
+    font-weight:700;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding-left:14%;
+    margin-top:0;
+}
+
+#fbsection4 p{
+    font-size:1.4em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+
 }
 
 
