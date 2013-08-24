@@ -1,6 +1,11 @@
 body{
-    min-width:900px;   
+    min-width:850px;   
 }
+
+header{
+
+}
+
 .content{
     padding-top:3%;
     padding-bottom:2%;
@@ -12,11 +17,13 @@ section{
 #fbsection1 h1{
     font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    font-size:5.5em;
-    margin-top:13%;
+    font-size:4.4em;
+    padding-top:0;
+    margin-top:0;
     margin-left:10%;
     margin-right:10%;
     font-weight:600;
+    color:#333;
     text-align:center;
 }
 
@@ -29,26 +36,38 @@ section{
     
 }
 
-.about-caption{
-    padding-top:0;
-}
-
-.about-caption h2{
-    margin-bottom:0;
-    padding-top:5%;
+#fbsection1 h3{
+    font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size:3em;
     padding-bottom:0;
+    margin-bottom:0;
+    text-align:center;
     font-weight:600;
-    font-size:4.5em;
+    margin-top:10%;
 }
 
-.about-caption p{
-    font-size:1.5em;
-    line-height:1.5em;
+.image-caption{
+    
 }
 
-.about-caption figure{
-    padding:0;   
+.info-caption{
+    
 }
+
+
+
+
+.about-section{
+    margin-top:3%;   
+}
+
+.about-section h2{
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+    
 .overlay{
     width:100%;
     height:100%;
@@ -78,11 +97,12 @@ world-caption{
     width:65%;
     margin:2% auto;
     padding:1%;
-    font-size:1.5em;
+    font-size:1.3em;
     color:#FAFAFA;
     background-color: rgba(0,0,0,0.7);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     word-spacing:2px;
+    line-height:1.5em;
 }
 
 
@@ -107,36 +127,6 @@ world-caption{
     float:left;
     width:25%;
 }
-
-#fbsection4 h2{
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
-    font-size:9em;
-    font-weight:700;
-    width:2em;
-    margin-top:0;
-    padding-top:0;
-    margin-bottom:0;
-    padding-bottom:0;
-    text-align:center;
-}
-
-#fbsection4 h3{
-    font-size:2.1em;
-    font-weight:700;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    padding-left:14%;
-    margin-top:0;
-}
-
-#fbsection4 p{
-    font-size:1.4em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-
-}
-
-
-
-
 
 
 
