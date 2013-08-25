@@ -52,13 +52,14 @@
                             </h4>
                         </div>
                         <article id="collapse1" class="collapse">
-                            <h6>Take a look at what we've got</h6>
+                            <h6><a href='portfolio.php'>1. Take a look at what we've got&#10138; </a></h6>
                         </article>
                         <article id="collapse2" class="collapse">
-                            <h6>Contact us for a quote</h6>
+                            <h6>2. Contact us for a quote&#10138; </h6>
+                            <h6>2. Contact us for a quote&#10138; </h6>
                         </article>
                         <article id="collapse3" class="collapse">
-                            <h6>..that's it! We take care of the rest</h6>
+                            <h6>..that's it! We take care of the rest&#10138; </h6>
                         </article>
 					</div>
 				
@@ -138,21 +139,42 @@
     <!-- toggle script -->
         <script>
                 $('#toggle1').click(function(){
-                    $('#collapse1').slideDown('fast');
+                    
+                    $('#toggle1').css('color', '#333333');
+                    $('#toggle2').css('color', 'white');
+                    $('#toggle3').css('color', 'white');
+                    
+                    $('#collapse1').fadeIn('slow');
                     $('#collapse2').hide();
                     $('#collapse3').hide();
+                    
+                    this.blur();
                 });
                                     
                 $('#toggle2').click(function(){
-                    $('#collapse2').slideDown('fast');
+                    
+                    $('#toggle2').css('color', '#333333');
+                    $('#toggle1').css('color', 'white');
+                    $('#toggle3').css('color', 'white');
+                    
+                    $('#collapse2').fadeIn('slow');
                     $('#collapse1').hide();
                     $('#collapse3').hide();
+                    
+                    this.blur();
                 });
                 
                 $('#toggle3').click(function(){
-                    $('#collapse3').slideDown('fast');
+                    
+                    $('#toggle3').css('color', '#333333');
+                    $('#toggle2').css('color', 'white');
+                    $('#toggle1').css('color', 'white');
+                    
+                    $('#collapse3').fadeIn('slow');
                     $('#collapse2').hide();
                     $('#collapse1').hide();
+                    
+                    this.blur();
                 });
         </script>
 	<!--slider script-->

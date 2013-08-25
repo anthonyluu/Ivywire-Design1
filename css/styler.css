@@ -69,18 +69,33 @@ section{
 }
 
 .collapse{
-
+    display:none;
 }
 
 .collapse h6{
     font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    font-size:2.8em;
+    font-size:3.4em;
     padding-top:0;
     margin-top:0;
     font-weight:600;
     color:#333;
     text-align:center;
+}
+
+.collapse a{
+    font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size:inherit;
+    padding-top:0;
+    margin-top:0;
+    font-weight:600;
+    color:#333;
+    text-align:center;
+}
+
+.collapse a:hover{
+    color:'white';
 }
 #fbsection2 h1{
     font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
