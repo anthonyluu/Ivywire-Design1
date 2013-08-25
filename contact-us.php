@@ -46,7 +46,7 @@
     <?php
                 if (isset($_REQUEST['email']))
                     {
-                        $to_email = 'toemail@example.com';
+                        $to_email = 'management@ivywire.ca';
                         $name = $_REQUEST['full_name'];
                         $phone = $_REQUEST['phone'];
                         $email = $_REQUEST['email'] ;
@@ -92,8 +92,8 @@
                                 <input type='text' id='full_name' name='full_name' placeholder='Enter your name' required>
                                 <label for='email'>Email Address*</label>
                                 <input type='text' id='email' name='email' placeholder='joe@doe.com' required>
-                                <label for='phone'>Phone*</label>
-                                <input type='text' id='phone' name='phone' placeholder='123 455 7890' required>
+                                <label for='phone'>Phone</label>
+                                <input type='text' id='phone' name='phone' placeholder='123 455 7890'>
                                 <label for='inquiry'>What are you inquiring about?*</label>
                                 <select id='inquiry' name='inquiry'>
                                     <option>Mobile Apps</option>
@@ -106,7 +106,7 @@
                             <div class='cbp-mc-column'>
                                 <h2>Contact Us</h2>
                                 <p>We're always looking to grow! Feel free to contact us through any of these lines:</p>
-                                <p>Email: ivywireline@gmail.com</p>
+                                <p>Email: management@ivywire.ca</p>
                                 <p>Skype: ivywire-main</p>
                             </div>
                             <div class='cbp-mc-submit-wrap'><input class='cbp-mc-submit' type='submit' value='Submit' /></div>
@@ -118,7 +118,22 @@
             </div>
         </div>
         
-        
+        <footer>
+            <div class="footer-section">
+                <h4><b>Contact Information</b></h4>
+                <p><b>Email:</b> <a href="mailto:management@ivywire.ca">management@ivywire.ca</a></p>
+                <p><b>Skype:</b> <a href="skype:ivywire-main">ivywire-main</a></p>
+            </div>
+            <div class="footer-section">
+            
+            </div>
+            <div class="footer-section footer-right">
+                <a href="/">Home</a>
+                <a href="web.php">Websites</a>
+                <a href="apps.php">Mobile Apps</a>
+                <a href="contact-us.php">Contact Us</a>
+            </div>
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

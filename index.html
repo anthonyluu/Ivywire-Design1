@@ -54,7 +54,7 @@
                             </h4>
                         </div>
                         <article id="collapse1" class="collapse">
-                            <h6><a href='portfolio.php'>1. Take a look at what we've got&#10138; </a></h6>
+                            <h6><a href='web.php'>1. Take a look at what we've got&#10138; </a></h6>
                         </article>
                         <article id="collapse2" class="collapse">
                             <h6><a href='contact-us.php'>2. Contact us for a quote&#10138;</a></h6>
@@ -97,17 +97,30 @@
 				<section id="fbsection3">
                     <div class = "overlay">
                         <h1>We work with people all over the 
-                            <span style="color:#000000"><a href="/portfolio.php">world&#65515;</a></span>
+                            <span style="color:#000000"><a href="apps.php">world&#65515;</a></span>
                         </h1>
                         <p>...And you can be one of them! We're always looking to take new projects. For a lot of employers, outsourcing a job is a cheaper and more efficient solution but not always the easiest one. Clients we've worked with have described their greatest fear for hiring out of their country as miscommunication. IvyWire Development takes multiple measures to calm those fears. We have employees well versed in languages all across the world including Mandarin, Cantonese, Hindi, Vietnamese and much more. If we don't accomodate your language, we'll hire a translater to communicate with you. Rest assured that we take every step needed to ensure the product you get is your ideal product.</p>
                     </div>
                 </section>
-  
+                <!--
 				<section id="fbsection4">
                     
-                </section>
+                </section>-->
         <footer>
-            <p>asd</p>
+            <div class="footer-section">
+                <h4><b>Contact Information</b></h4>
+                <p><b>Email:</b> <a href="mailto:management@ivywire.ca">management@ivywire.ca</a></p>
+                <p><b>Skype:</b> <a href="skype:ivywire-main">ivywire-main</a></p>
+            </div>
+            <div class="footer-section">
+            
+            </div>
+            <div class="footer-section footer-right">
+                <a href="/">Home</a>
+                <a href="web.php">Websites</a>
+                <a href="apps.php">Mobile Apps</a>
+                <a href="contact-us.php">Contact Us</a>
+            </div>
         </footer>
             </div>
 		</div>
@@ -143,6 +156,8 @@
                     $('#portfolio').css('color', 'black');
                     $('#web').fadeIn('slow');    
                     $('#app').fadeIn('slow');
+                    
+                    this.blur();
                 });
             
                 $('#toggle1').click(function(){
