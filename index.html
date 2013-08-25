@@ -17,13 +17,8 @@
         
 		<link rel="stylesheet" type="text/css" href="css/component-fixed-pics.css" />
 		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
-        
-        <!-- scroll effects css -->
-		<link rel="stylesheet" type="text/css" href="css/demo-onscroll-effect.css" />
-		<link rel="stylesheet" type="text/css" href="css/component-onscroll-effect.css" />
-        
         <link rel="stylesheet" type="text/css" href="css/styler.css" />
-        <script src="js/onscrolleffect/modernizr.custom.js"></script>
+        <script src="js/modernizr.custom.js"></script>
 		
 		
     </head>
@@ -38,7 +33,7 @@
                 
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a>Portfolio</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
 					<li><a href="contact-us.php" class="checked">Contact</a></li>
 				</ul>
 			</header>
@@ -49,20 +44,27 @@
                         <h3>Welcome to</h3>
                         <h1>IvyWire Development</h1>
                         <h2>We help you get your ideas off the ground.</h2>
+                        <div class="main-row">
+                            <h4>
+                                <span class="main-hover"><a href="#" onclick="DisplayOne();return false;">&#9996;</a></span> 
+                                <span class="main-hover"><a href="#" onclick="DisplayTwo();return false;">&#9986;</a></span>                   
+                                <span class="main-hover"><a href="#" onclick="DisplayThree();return false;">&#9993;</a></span> 
+                            </h4>
+                        </div>
+                        
 					</div>
 				
 				
 				</section>
 				<section id="fbsection2">
                     <div class="content">
-                        <section class="about-area">
-                            <div class="image-caption">
-                            
-                            </div>
-                            <div class="info-caption">
-                            
-                            </div>
-                        </section>
+                        <h1>A creative splash to your product!</h1>
+                        <figure class="image-caption">
+                            <img src="images/splash.png" />
+                        </figure>
+                        <article class="info-caption">
+                        
+                        </article>
                          <!--
                         <div id="cbp-so-scroller2" class="cbp-so-scroller">
                             <section class="cbp-so-section">
@@ -84,7 +86,7 @@
                         <h1>We work with people all over the 
                             <span style="color:#000000"><a href="/portfolio.php">world&#65515;<a></span>
                         </h1>
-                        <p>...And you can be one of them! We're always looking to take new projects and . For a lot of employers, outsourcing a job is a cheaper and more efficient solution but not always the easiest one. Clients we've worked with have described their greatest fear for hiring out of their country as miscommunication. IvyWire Development takes multiple measures to calm those fears. We have employees well versed in languages all across the world including Mandarin, Cantonese, Hindi, Vietnamese and much more. If we don't accomodate your language, we'll hire a translater to communicate with you. Rest assured that we take every step needed to ensure the product you get is your ideal product.</p>
+                        <p>...And you can be one of them! We're always looking to take new projects. For a lot of employers, outsourcing a job is a cheaper and more efficient solution but not always the easiest one. Clients we've worked with have described their greatest fear for hiring out of their country as miscommunication. IvyWire Development takes multiple measures to calm those fears. We have employees well versed in languages all across the world including Mandarin, Cantonese, Hindi, Vietnamese and much more. If we don't accomodate your language, we'll hire a translater to communicate with you. Rest assured that we take every step needed to ensure the product you get is your ideal product.</p>
                     </div>
                 </section>
   
@@ -121,6 +123,19 @@
 				cbpFixedScrollLayout.init();
 			});
 		</script>
+                
+    <!-- toggle script -->
+        <script>
+            function DisplayOne(){
+                
+            }
+            function DisplayTwo(){
+            
+            }
+            function DisplayThree(){
+            
+            }
+        </script>
 	<!--slider script-->
 		<script>
 			if(window.chrome) {
@@ -157,18 +172,6 @@
 			});
 
 			var GoSquared = {acct: 'GSN-396664-U'};
-		</script>
-        
-        
-        <!--onscroll effect script-->
-        <script src="js/onscrolleffect/classie.js"></script>
-		<script src="js/onscrolleffect/cbpScroller.js"></script>
-        <script src="js/onscrolleffect/jquery.cbpQTRotator.min.js"></script>
-		<script>
-			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-		</script>
-        <script>
-			new cbpScroller( document.getElementById( 'cbp-so-scroller2' ) );
 		</script>
     </body>
 </html>
