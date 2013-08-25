@@ -14,8 +14,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/unslider.css">
-        
+            
 		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
         
         <!-- scroll effects css -->
@@ -124,13 +123,10 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-		
-		<script src="//code.jquery.com/jquery-latest.min.js"></script>
 
 		<script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
 		<script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
 
-		<script src="//unslider.com/unslider.min.js"></script>
 		
 	<!-- scrolling layout script includes -->
 		<script src="js/jquery.easing.min.js"></script>
@@ -141,57 +137,12 @@
 		<script src="js/cbpFixedScrollLayout.min.js"></script>
 	<!-- scrolling layout script includes END-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
 	<!--fixedbackground script-->
 		<script>
 			$(function() {
 				cbpFixedScrollLayout.init();
 			});
 		</script>
-	<!--slider script-->
-		<script>
-			if(window.chrome) {
-				$('.banner li').css('background-size', '100% 100%');
-			}
-
-			$('.banner').unslider({
-				arrows: true,
-				fluid: true,
-				dots: true
-			});
-
-			//  Find any element starting with a # in the URL
-			//  And listen to any click events it fires
-			$('a[href^="#"]').click(function() {
-				//  Find the target element
-				var target = $($(this).attr('href'));
-
-				//  And get its position
-				var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
-
-				//  jQuery will return false if there's no element
-				//  and your code will throw errors if it tries to do .offset().left;
-				if(pos) {
-					//  Scroll the page
-					$('html, body').animate({
-						scrollTop: pos.top,
-						scrollLeft: pos.left
-					}, 1000);
-				}
-
-				//  Don't let them visit the url, we'll scroll you there
-				return false;
-			});
-
-			var GoSquared = {acct: 'GSN-396664-U'};
-		</script>
-        
         <!-- toggle script -->
         <script>
                 $('#portfolio').click(function(){
