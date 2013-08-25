@@ -37,6 +37,8 @@
 				<ul>
 					<li><a href="/">Home</a></li>
 					<li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="apps.php">Apps</a></li>
+                    <li><a href="web.php">Web</a></li>
 					<li><a href="contact-us.php" class="checked">Contact</a></li>
 				</ul>
 			</header>
@@ -45,14 +47,15 @@
 			<section>
 			
 				<div class="ao-item">
+                    <h1>Web</h1>
 					<div class="ao-details">
-						<h2>Blenton Wordpress Theme</h2>
-						<p>Blenton is a simple and clean Wordpress theme which was made with a lot of attention to detail. It is suitable for commercial and private projects and comes with a variety of features.</p>
-						<p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p>
+						<h2>Web 1</h2>
+						<p>Here is one of our simple apps that we created. It works by taking a bit of this and adding it to a bit of that. With a bit of tweaking, we were able to build what you see on the left.</p>
+						<p><a href="/">Take a look &rarr;</a></p>
 					</div>
 					<div class="ao-preview">
 						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
-						<img src="images/template1.jpg" alt="image01" />
+						<img src="images/template1.jpg" alt="image01" width="700px" />
 						<div class="ao-annotations">
 							<span>Full Localisation Support   &#62;</span>
 							<span>Custom Image Widget</span>
@@ -65,13 +68,13 @@
 				
 				<div class="ao-item ao-item-left">
 					<div class="ao-details">
-						<h2>Blenton is elegant</h2>
-						<p>The design of Blenton makes a great match with a portfolio. It comes with many features like full localisation support and easy theme options.</p>
-						<p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p>
+						<h2>Web 2</h2>
+						<p>The design of this app makes a great match with a portfolio. It comes with many features like full localisation support and easy theme options.</p>
+						<p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Try it here &rarr;</a></p>
 					</div>
 					<div class="ao-preview">
 						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
-						<img src="images/template2.jpg" alt="image02" />
+						<img src="images/template2.jpg" alt="image02" width="700px"/>
 						<div class="ao-annotations">
 							<span>Easy Logo Upload</span>
 							<span>Custom Post Portfolio</span>

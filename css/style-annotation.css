@@ -1,7 +1,7 @@
 .ao-item {
 	width: 80%;
 	margin: 0 auto;
-	padding: 35px 0;
+	padding: 100px 0;
 	position: relative;
 	clear: both;
 }
@@ -291,4 +291,16 @@ input.ao-toggle:checked ~ .ao-annotations span:nth-child(5) {
 	.ao-annotations span {
 		font-size: 11px;
 	}
+}
+
+
+.ao-item h1{
+    font-family: 'Josefin Slab','Myriad Pro',Arial,sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 4.4em;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: 600;
+    color: #333;
+    text-align: center;   
 }
