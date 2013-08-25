@@ -13,10 +13,9 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/unslider.css">
         
 		<link rel="stylesheet" type="text/css" href="css/component-fixed-pics.css" />
-		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
+		<link rel="stylesheet" type="text/css" href="css/override.css" />
         <link rel="stylesheet" type="text/css" href="css/styler.css" />
         
         
@@ -57,11 +56,11 @@
 						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
 						<img src="images/template1.jpg" alt="image01" width="700px" />
 						<div class="ao-annotations">
-							<span>Full Localisation Support   &#62;</span>
-							<span>Custom Image Widget</span>
-							<span>Blog and Contact Widgets</span>
-							<span>Easy Theme Options</span>
-							<span>4 Footer Widget Columns</span>
+							<span>Sleek, modern design</span>
+							<span>HTML5 built</span>
+							<span>Smooth CSS3 animations</span>
+							<span>A personalized touch to every page</span>
+							<span>PHP5-powered</span>
 						</div>
 					</div>
 				</div>
@@ -76,9 +75,9 @@
 						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
 						<img src="images/jd.jpg" alt="image02" width="700px"/>
 						<div class="ao-annotations">
-							<span>Easy Logo Upload</span>
-							<span>Custom Post Portfolio</span>
-							<span>Custom Background Color and Pattern</span>
+							<span>Simple, clean design</span>
+							<span>Built-in job postings</span>
+							<span>Results that would not expect!</span>
 						</div>
 					</div>
 				</div>
@@ -109,70 +108,15 @@
 		<script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
 		<script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
 
-		<script src="//unslider.com/unslider.min.js"></script>
-		
-	<!-- scrolling layout script includes -->
-		<script src="js/jquery.easing.min.js"></script>
-		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-		<script src="js/waypoints.min.js"></script>
-		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-		<script src="js/jquery.debouncedresize.js"></script>
-		<script src="js/cbpFixedScrollLayout.min.js"></script>
-	<!-- scrolling layout script includes END-->
-
-	<!--fixedbackground script-->
-		<script>
-			$(function() {
-				cbpFixedScrollLayout.init();
-			});
-		</script>
-                
     <!-- toggle script -->
         <script>
                 $('#portfolio').click(function(){
-                    $('#portfolio').css('color', 'black');
+                    $('#portfolio').css('color', '#A4A4A4');
                     $('#web').fadeIn('slow');    
                     $('#app').fadeIn('slow');
                     
                     this.blur();
                 });
         </script>
-	<!--slider script-->
-		<script>
-			if(window.chrome) {
-				$('.banner li').css('background-size', '100% 100%');
-			}
-
-			$('.banner').unslider({
-				arrows: true,
-				fluid: true,
-				dots: true
-			});
-
-			//  Find any element starting with a # in the URL
-			//  And listen to any click events it fires
-			$('a[href^="#"]').click(function() {
-				//  Find the target element
-				var target = $($(this).attr('href'));
-
-				//  And get its position
-				var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
-
-				//  jQuery will return false if there's no element
-				//  and your code will throw errors if it tries to do .offset().left;
-				if(pos) {
-					//  Scroll the page
-					$('html, body').animate({
-						scrollTop: pos.top,
-						scrollLeft: pos.left
-					}, 1000);
-				}
-
-				//  Don't let them visit the url, we'll scroll you there
-				return false;
-			});
-
-			var GoSquared = {acct: 'GSN-396664-U'};
-		</script>
     </body>
 </html>

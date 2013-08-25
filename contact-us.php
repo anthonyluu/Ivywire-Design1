@@ -15,12 +15,12 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
             
-		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
+		<link rel="stylesheet" type="text/css" href="css/override.css" />
         
         <!-- scroll effects css -->
 		<link rel="stylesheet" type="text/css" href="css/component-form.css" />
         <link rel="stylesheet" type="text/css" href="css/styler.css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style-annotation.css" />
         <script src="js/onscrolleffect/modernizr.custom.js"></script>
 		
 		
@@ -161,7 +161,7 @@
         <!-- toggle script -->
         <script>
                 $('#portfolio').click(function(){
-                    $('#portfolio').css('color', 'black');
+                    $('#portfolio').css('color', '#A4A4A4');
                     $('#web').fadeIn('slow');    
                     $('#app').fadeIn('slow');
                 });
