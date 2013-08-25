@@ -46,12 +46,20 @@
                         <h2>We help you get your ideas off the ground.</h2>
                         <div class="main-row">
                             <h4>
-                                <span class="main-hover"><a href="#" onclick="DisplayOne();return false;">&#9986;</a></span> 
-                                <span class="main-hover"><a href="#" onclick="DisplayTwo();return false;">&#9993;</a></span>                   
-                                <span class="main-hover"><a href="#" onclick="DisplayThree();return false;">&#9996;</a></span> 
+                                <span class="main-hover"><a id="toggle1" href="#">&#9776;</a></span> 
+                                <span class="main-hover"><a id="toggle2" href="#">&#9990;</a></span>                   
+                                <span class="main-hover"><a id="toggle3" href="#">&#9745;</a></span> 
                             </h4>
                         </div>
-                        
+                        <article id="collapse1" class="collapse">
+                            <h6>Take a look at what we've got</h6>
+                        </article>
+                        <article id="collapse2" class="collapse">
+                            <h6>Contact us for a quote</h6>
+                        </article>
+                        <article id="collapse3" class="collapse">
+                            <h6>..that's it! We take care of the rest</h6>
+                        </article>
 					</div>
 				
 				
@@ -129,14 +137,24 @@
                 
     <!-- toggle script -->
         <script>
-            function DisplayOne(){
+            $(document).ready(function() {
+                $('#toggle1').click(function(){
+                    $('#collapse1').slideDown('fast');
+                    $('#collapse2').hide();
+                    $('#collapse3').hide();
+                }
+                                    
+                $('#toggle2').click(function(){
+                    $('#collapse2').slideDown('fast');
+                    $('#collapse1').hide();
+                    $('#collapse3').hide();
+                }
                 
-            }
-            function DisplayTwo(){
-            
-            }
-            function DisplayThree(){
-            
+                $('#toggle3').click(function(){
+                    $('#collapse3').slideDown('fast');
+                    $('#collapse2').hide();
+                    $('#collapse1').hide();
+                }
             }
         </script>
 	<!--slider script-->
