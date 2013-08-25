@@ -28,12 +28,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container app">
+        <div class="container">
 			<header class="clearfix">
                 
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="portfolio.php">Portfolio</a></li>
+					<li><a id="portfolio" href="#">Portfolio</a></li>
+                    <li><a id="web" class="hide" href="web.php">Websites</a></li>
+                    <li><a id="app" class="hide" href="apps.php">Mobile Apps</a></li>
 					<li><a href="contact-us.php" class="checked">Contact</a></li>
 				</ul>
 			</header>
@@ -43,7 +45,7 @@
 					<div class="content">
                         <h3>Welcome to</h3>
                         <h1>IvyWire Development</h1>
-                        <h2>We help you get your ideas off the ground.</h2>
+                        <h2>We help you get your ideas off the <span style="color:#333">ground.</span></h2>
                         <div class="main-row">
                             <h4>
                                 <span class="main-hover"><a id="toggle1" href="#">&#9776;</a></span> 
@@ -55,11 +57,10 @@
                             <h6><a href='portfolio.php'>1. Take a look at what we've got&#10138; </a></h6>
                         </article>
                         <article id="collapse2" class="collapse">
-                            <h6>2. Contact us for a quote&#10138; </h6>
-                            <h6>2. Contact us for a quote&#10138; </h6>
+                            <h6><a href='contact-us.php'>2. Contact us for a quote&#10138;</a></h6>
                         </article>
                         <article id="collapse3" class="collapse">
-                            <h6>..that's it! We take care of the rest&#10138; </h6>
+                            <h6>..that's it! We take care of the rest</h6>
                         </article>
 					</div>
 				
@@ -74,7 +75,7 @@
                         <article class="info-caption">
                             <h5>&#9733;  A little about us &#9733; </h5>
                             <p>
-                                IvyWire Development is a Canadian-based technical solutions initiative consisting of 4 developers and 1 designer. We're a small, personable team that specializes in website and mobile app production. We pride ourselves in our ability to add a personalized touch to our work and create cool, unique products. Over the course of our venture we've had the chance to take some interesting projects and worked with some interesting people. We've learnt from these experiences and gotten pretty skilled at what we do along the way. Suffice to say, that if the product that your working on is looking ot be digital then we're the guys to contact. If you're interested in working with us, feel free to contact us for a <a href="contact-us.php" style="font-weight:900">quote&#8594;</a>. 
+                                IvyWire Development is a Canadian-based technical solutions initiative consisting of 4 developers and 1 designer. We're a small, personable team that specializes in website and mobile app production. We pride ourselves in our ability to add a personalized touch to our work and create cool, unique products. Over the course of our venture we've had the chance to take some interesting projects and worked with some interesting people. We've learnt from these experiences and gotten pretty skilled at what we do along the way. Suffice to say, that if the product that your working on is looking to be digital then we're the guys to contact. If you're interested in working with us, feel free to contact us for a <a href="contact-us.php" style="font-weight:900">quote&#8594;</a>. 
                             </p>
                         </article>
                          <!--
@@ -138,6 +139,12 @@
                 
     <!-- toggle script -->
         <script>
+                $('#portfolio').click(function(){
+                    $('#portfolio').css('color', 'black');
+                    $('#web').fadeIn('slow');    
+                    $('#app').fadeIn('slow');
+                });
+            
                 $('#toggle1').click(function(){
                     
                     $('#toggle1').css('color', '#333333');

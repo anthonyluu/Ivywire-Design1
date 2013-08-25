@@ -6,6 +6,10 @@ header{
 
 }
 
+.hide{
+    display:none;   
+}
+
 .content{
     padding-top:3%;
     padding-bottom:2%;

@@ -19,8 +19,9 @@
 		<link rel="stylesheet" type="text/css" href="css/default-fixed-pics.css" />
         
         <!-- scroll effects css -->
-		<link rel="stylesheet" type="text/css" href="css/demo-onscroll-effect.css" />
 		<link rel="stylesheet" type="text/css" href="css/component-form.css" />
+        <link rel="stylesheet" type="text/css" href="css/styler.css" />
+        
         <script src="js/onscrolleffect/modernizr.custom.js"></script>
 		
 		
@@ -33,13 +34,11 @@
         <!-- Add your site or application content here -->
 		<div class="container">
 			<header class="clearfix">
-				<div class="logo-section">
-					<span>New and rebuilt</span>
-					<h1>IvyWire Dev</h1>
-				</div>
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/">Portfolio</a></li>
+					<li><a id="portfolio" href="#">Portfolio</a></li>
+                    <li><a id="web" class="hide" href="web.php">Websites</a></li>
+                    <li><a id="app" class="hide" href="apps.php">Mobile Apps</a></li>
 					<li><a href="contact-us.php">Contact</a></li>
 				</ul>
 			</header>
@@ -193,18 +192,13 @@
 			var GoSquared = {acct: 'GSN-396664-U'};
 		</script>
         
-        
-        <!--onscroll effect script-->
-        <script src="js/onscrolleffect/classie.js"></script>
-		<script src="js/onscrolleffect/cbpScroller.js"></script>
-		<script>
-			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-		</script>
+        <!-- toggle script -->
         <script>
-			new cbpScroller( document.getElementById( 'cbp-so-scroller2' ) );
-		</script>
-        <script>
-		$(".cbp-mc-form").validate();
-		</script>
+                $('#portfolio').click(function(){
+                    $('#portfolio').css('color', 'black');
+                    $('#web').fadeIn('slow');    
+                    $('#app').fadeIn('slow');
+                });
+        </script>
     </body>
 </html>
