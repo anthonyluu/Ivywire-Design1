@@ -77,7 +77,7 @@
 						<div class="ao-annotations">
 							<span>Simple, clean design</span>
 							<span>Built-in job postings</span>
-							<span>Results that would not expect!</span>
+							<span>Results you would not expect!</span>
 						</div>
 					</div>
 				</div>

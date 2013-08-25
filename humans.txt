@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Karanbir Randhawa> -- <everything> -- <twitter>
+	<Anthony Luu> -- <somt stuff> -- <twitter>
 
 # THANKS
 
-    <name>
+    <Steven Tan>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
+	PHP5
