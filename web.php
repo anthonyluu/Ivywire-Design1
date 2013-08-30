@@ -65,22 +65,7 @@
 					</div>
 				</div>
 				
-				<div class="ao-item ao-item-left">
-					<div class="ao-details">
-						<h2>J&D Recruitment</h2>
-						<p>J&D Recruitment is a recruitment agency based in Toronto. The J&D Recruitment website is the first web development project we have done. During the course of the project, we have gained invaluable knowledge in web programming languages such as HTML 5, PHP, CSS3 and JavaScript.</p>
-						<p><a href="http://janddrecruitment.com/index.php">Take a look &rarr;</a></p>
-					</div>
-					<div class="ao-preview">
-						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
-						<img src="images/jd.jpg" alt="image02" width="700px"/>
-						<div class="ao-annotations">
-							<span>Simple, clean design</span>
-							<span>Built-in job postings</span>
-							<span>Results you would not expect!</span>
-						</div>
-					</div>
-				</div>
+				
 				
 			</section>
             <footer>
